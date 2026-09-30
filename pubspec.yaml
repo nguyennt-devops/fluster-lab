@@ -1,0 +1,31 @@
+name: test_app
+description: "Bài tập Flutter 9 Labs của Nguyễn Thái Nguyên (23IT.B142)."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  audioplayers: ^5.2.1
+  http: ^1.2.2
+  geolocator: ^13.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+        - images/
+        - assets/
